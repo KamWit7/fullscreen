@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Volcano!</title>
     <style type="text/css">
-      body {
+      body,
+      html {
         padding: 0;
         margin: 0;
 
-        background: url("./volcano.jpg") #000;
-        background-position: center top;
-        background-repeat: no-repeat;
+        height: 100%;
+
+        background-color: #000;
+      }
+
+      .volacno-bg {
+        height: 100%;
+
+        background: url("./volcano.jpg") #000 center no-repeat;
         background-size: cover;
-        background-attachment: fixed;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="volacno-bg"></div>
+  </body>
 </html>
